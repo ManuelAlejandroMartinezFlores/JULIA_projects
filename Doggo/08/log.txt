@@ -1,0 +1,24 @@
+Naive:
+48.924656 seconds (700.00 M allocations: 12.917 GiB, 37.19% gc time)
+57.053866 seconds (700.00 M allocations: 12.917 GiB, 37.43% gc time)
+56.423210 seconds (700.00 M allocations: 12.917 GiB, 37.53% gc time)
+
+Function wrapped:
+7.571121 seconds (100.00 M allocations: 2.486 GiB, 18.17% gc time, 0.20% compilation time)
+9.534200 seconds (100.00 M allocations: 2.486 GiB, 46.41% gc time, 0.19% compilation time)
+11.288685 seconds (100.00 M allocations: 2.486 GiB, 54.75% gc time, 0.12% compilation time)
+
+Arithmetic:
+3.917780 seconds (4 allocations: 1.490 GiB, 6.08% gc time)
+3.273499 seconds (4 allocations: 1.490 GiB, 7.99% gc time)
+2.088545 seconds (4 allocations: 1.490 GiB, 7.78% gc time)
+
+Broadcasting:
+0.149656 seconds (4 allocations: 128 bytes)
+0.140419 seconds (4 allocations: 128 bytes)
+0.140909 seconds (4 allocations: 128 bytes)
+
+LinearAlgebra.axpy!:
+0.102231 seconds
+0.100262 seconds
+0.100727 seconds
