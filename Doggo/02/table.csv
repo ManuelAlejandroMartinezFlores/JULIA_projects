@@ -1,0 +1,4 @@
+brand,tier,quantity,price,revenue,profit,margin
+a,p,10,100,1000,700,0.7
+b,e,100,10,1000,300,0.3
+c,s,50,50,2500,1250,0.5
